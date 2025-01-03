@@ -5,45 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refinishing Floors and Stairs</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(222, 184, 135);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #6d4c41;
+            color: white;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .images img {
+            width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .images img {
+                width: 90%;
+            }
+        }
+    </style>
 </head>
 <body>
+
     <!-- Header Section -->
     <header>
         <h1>Refinishing Floors and Stairs</h1>
-        <nav>
-            <a href="index.html">Home Page</a>
-        </nav>
+        <p><a href="index.html">Home Page</a></p>
     </header>
 
     <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Refinishing Process</h2>
-            <p>
-                Refinishing is a process where floor that has been either sanded or treated, or just sanded, is coated with stain. This is usually the final step of the process because once a floor is stained the floor is completed and it will be ready to walk on once it dries. Event puts unparalleled effort into all of the steps of creating a floor the customer has requested.
-            </p>
-        </section>
+        <h3>
+            Refinishing is a process where floors that have been either sanded or treated, or just sanded, are coated with stain. This is usually the final step of the process because once a floor is stained, it is complete and ready to walk on once it dries. Event puts unparalleled effort into all the steps of creating a floor that meets the customer’s requests.
+        </h3>
 
         <!-- Image Section -->
-        <section class="images">
-            <div class="image-container">
-                <img src="pic2.jpg" alt="Refinishing process step 1">
-            </div>
-            <div class="image-container">
-                <img src="pic3.jpg" alt="Refinishing process step 2">
-            </div>
-            <div class="image-container">
-                <img src="pic8.jpg" alt="Refinished floor">
-            </div>
-            <div class="image-container">
-                <img src="pic25.jpg" alt="Finished refinished stairs">
-            </div>
-        </section>
+        <div class="images">
+            <img src="pic2.jpg" alt="Floor Sanding Process">
+            <img src="pic3.jpg" alt="Floor Staining">
+            <img src="pic8.jpg" alt="Finished Hardwood Floor">
+            <img src="pic25.jpg" alt="Polished Floor Outcome">
+        </div>
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Event Hardwood. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
