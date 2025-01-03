@@ -1,1 +1,111 @@
+/* General Body and Layout Styles */
+body {
+    background-color: #f4f8fc;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #004d7a;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #007acc;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #005a8b;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #004d7a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Image Section */
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.images img {
+    width: 48%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+button {
+    background-color: #007acc;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005a8b;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
 
