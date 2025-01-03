@@ -5,41 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanding Floors and Stairs</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(222, 184, 135);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #6d4c41;
+            color: white;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .images img {
+            width: 700px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
         <h1>Sanding Floors and Stairs</h1>
-        <nav>
-            <a href="index.html">Home Page</a>
-        </nav>
+        <p><a href="index.html">Home Page</a></p>
     </header>
 
     <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Sanding Process</h2>
-            <p>
-                Sanding is the first step to refinishing stairs and floors. Sanding can be done multiple times to ensure that all previous stain has been removed. After this, if you wish to change the stain color, a wood conditioner must be applied before applying the new stain. Finally, a finish is applied, and the process can be repeated as needed.
-            </p>
-        </section>
+        <h3>
+            Sanding is the first step to refinishing stairs and floors in the future. Sanding can be done more than once to ensure that all of the previous stain has been removed. Once this is done, if you want to change the color of the stain, a wood conditioner must be applied before the new stain is applied. Lastly, the finish is applied and the process can be repeated multiple times.
+        </h3>
 
         <!-- Image Section -->
-        <section class="images">
-            <div class="image-container">
-                <img src="pic4.jpg" alt="Sanding Process">
-            </div>
-            <div class="image-container">
-                <img src="pic23.jpg" alt="Finished Sanding">
-            </div>
-        </section>
+        <div class="images">
+            <img src="pic4.jpg" alt="Sanding Floors - Image 1">
+            <img src="pic23.jpg" alt="Sanding Floors - Image 2">
+        </div>
     </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Event Hardwood. All Rights Reserved.</p>
-    </footer>
 
 </body>
 </html>
